@@ -13,7 +13,6 @@ class PgSqlOptions implements ConnectionOptionInterface
 
     public function getDns(): string
     {
-        
         return $this->connectionString;
     }
 }
