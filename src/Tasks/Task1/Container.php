@@ -37,7 +37,7 @@ class Container implements ArrayAccess
     {
         return array_key_exists($key, $this->bindings);
     }
-    public function set(string $key, $value)
+    public function set(string $key, $value): void
     {
         $this->bindings[$key] = $value;
     }
